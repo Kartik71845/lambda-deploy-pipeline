@@ -1,0 +1,2 @@
+# requirements.txt
+# Add Python packages here if needed, e.g. requests
