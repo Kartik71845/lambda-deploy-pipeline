@@ -27,7 +27,7 @@ jobs:
             python -m pip install --upgrade pip
             pip install -r requirements.txt -t package
           fi
-          cp lambda_main.py package/
+          cp lambda_function.py package/
           (cd package && zip -r ../lambda.zip .)
           ls -lh lambda.zip
 
